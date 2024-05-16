@@ -7,7 +7,7 @@ import cohere
 from cohere.responses.chat import StreamEvent
 # assuming .env file in parent dir exists
 # with COHERE_API_KEY = your_api_key
-co = cohere.Client(os.environ.get("COHERE_API_KEY"))
+co = cohere.Client("0Rd047SkwTFA2uOiHrSRbvcAZwH55eHLwfKr6YYa")
 
 st.title("TextGpt")
 
